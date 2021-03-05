@@ -142,6 +142,7 @@ p{
 
 /* within home flex making social links box flex and giving them row direction */
 .social{
+    margin-top: 4rem;
     align-self:center;
     display: flex;
     flex-wrap: wrap;
