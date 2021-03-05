@@ -18,9 +18,13 @@ body{
         justify-content: space-between;
     }
     .hprimary{
+        margin-top: 3rem;
         font-size: 2rem;
         color: white;
         font-family: 'Courgette', cursive;
+    }
+    #home p {
+        font-size: 1rem;
     }
 
     .social a img{
@@ -53,9 +57,13 @@ body{
     }
 
     .hprimary{
+        margin-top:5rem;
         font-size: 5rem;
         color: white;
         font-family: 'Courgette', cursive;
+    }
+    #home p {
+        font-size: 2rem;
     }
     
     /* social social links images */
@@ -134,7 +142,7 @@ p{
 
 /* change font of p in home  */
 #home p{
-    font-size: 2rem;
+    /* font-size: 2rem; */
     color: white;
     font-family: 'Courgette', cursive;
 
