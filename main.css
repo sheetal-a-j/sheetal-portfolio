@@ -1,0 +1,213 @@
+/* css resest */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    width:100vw;
+}
+
+/* mobile view */
+@media screen and (max-width: 768px){
+    #about{
+        display:flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hprimary{
+        font-size: 2rem;
+        color: white;
+        font-family: 'Courgette', cursive;
+}}
+/* deskop view */
+@media screen and (min-width: 768px){
+    #about{
+        display:flex;
+        width:60%;
+        margin:0 auto;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    
+    }
+    .hprimary{
+        font-size: 5rem;
+        color: white;
+        font-family: 'Courgette', cursive;
+}}
+
+/* giving margin for logo image */
+#logo{
+    margin:1rem 1rem;
+}
+/* border-radius 50% will make the logo in round shape */
+#logo img{
+   border-radius: 50%;
+   width:6rem;
+}
+/* initializing all the fonts and style for p tag */
+p{
+    margin:1rem;
+    font-size: 1.2rem;
+    text-align:justify;
+    text-indent: 1rem;
+    line-height: 1.8;
+}
+
+/* making navbar flex so that logo and ul can come side by side  and aligning the items in center. */
+#navbar{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    position:relative;
+    background-color: gray;
+    
+}
+
+/* making navbar ul flex to arrange three list row wise */
+#navbar ul{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* styling the navbar  anchor tags */
+#navbar ul li{
+    list-style: none;  /* remove the dots of list */
+    font-size: 1.6rem;
+}
+
+#navbar ul li a{
+    color:brown;
+    display:block;
+    padding:0.3rem;
+    margin:1rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;   /* remove underline of anchor tag*/
+}
+#navbar ul li a:hover{  /*change color when hover*/
+    color: black;
+    background-color: white;
+}
+
+/* setting background image for top portion */
+.top{
+    background:url("images/bg2.jpg") no-repeat center center/cover;
+    width:100%;
+    height: 80%;
+
+}
+
+/* making home section flex box and aligning items in column direction */
+#home{
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* change font of p in home  */
+#home p{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Courgette', cursive;
+
+}
+
+/* within home flex making social links box flex and giving them row direction */
+.social{
+    width:20rem;
+    align-self:center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* social social links images */
+.social a img{
+    border-radius: 50%;
+    width:4rem;
+    margin:1rem;
+}
+
+.down{
+    width:100%;
+}
+
+/* .abt and .project all li of ul and ol for personal details and project */
+/* giving them margin  */
+.abt, .project{
+    margin: 0.8rem
+}
+ul{
+    list-style-type: none; /* remove their style*/
+}
+
+/* styling headline of all section in  about id */
+.headline{
+    display: inline-block;
+    border-bottom: 5px double brown;
+    padding:0.8rem;
+    margin:1.2rem 0;
+}
+
+/* sub is skill present in skill id */
+.sub{
+    margin:1rem ;
+}
+
+/* styling progess bar */
+/* outer bar/div will have maximum width and in gray color */
+.progress-bar{
+    background-color:rgba(128, 128, 128, 0.541); 
+    height:1.5rem;
+    width:100%;
+    border-radius: 1rem;
+
+}
+
+/* inner div will diff width for diff skill specified in html file */
+/* giving cadetblue color for that width */
+.progress{
+  /* width:60%; */
+  height:100%;
+  background-color:  cadetblue;  
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  
+} 
+
+/* giving the width to contact and keeping in center */
+.contact_form{
+    width:60%;
+    margin:0 auto;
+    
+}
+
+/* giving height and width for each input box */
+.feild{
+    width:100%;
+    height:2rem;
+
+}
+
+/* styling submit button */
+.submit{
+    height:2rem;
+    width:30%;
+    background-color: cadetblue;
+    margin:0px auto;
+    border: 2px double brown;
+}
+
+/* styling home page logo present at the last */
+.homeimg{
+
+    margin :0 auto;
+}
+.homeimg img{
+    border-radius: 50%;
+    width:4rem;
+    }

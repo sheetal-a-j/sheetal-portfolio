@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheetal portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <!-- to section is used to give the background image for top only -->
+    <section class="top">
+        <!-- under top this is the navigation bar -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logo.jpeg" alt="my logo">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#about">About Me</a></li>
+            <li class="item"><a href="#contact">Contact Me</a></li>
+       </ul>
+    </nav>
+    <!-- this is home section which includes name, role and all the social links -->
+    <section id="home">
+        <h1 class="hprimary">Sheetal Ashok Jadhav</h1>
+        <p> Software Engineer</p><br><br><br>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/sheetal-ashok-jadhav-134009194",target="_top"><img src="images/linkedin.ico" alt=""></a>
+            <a href=" mailto:sheetal9513jadhav@gmail.com?" target="_top"><img src="images/mail.webp" alt=""></a>
+            <a href="https://gitlab.com/Sheetu_a_j"><img src="images/git.png" alt="",target="_top"></a>
+        </div>
+        
+    </section>
+   </section>
+    
+    <!-- this is down section which includes all the details and contact -->
+    <section class="down">
+        
+        <section id="about" >
+        <!-- class resume is used so that styling can be done for each section -->
+        <!-- this is introduction -->
+        <section id="intro" class="resume">
+            <h3 class="headline">INTRODUCTION:</h3>
+            <p>
+            
+             I am Sheetal Ashok Jadhav. I am a Software Engneer Trainee at Mountblue Technologies. I completed my B.E from Bapuji Institute of Engineering and Technology with overall cgpa of 7.66. Technology which I am currently working  is Ruby on Rails. I have also worked on Django and flask framework . As a Software Enginee, I am always ready to learn new technologies and contribute for the growth of company. </p>
+        </section>
+        <!-- this is personal details ... class abt is used to give margin between them -->
+        <section id = "personal" class="resume">
+            <h3 class="headline">PERSONAL DETAILS:</h3>
+            <ul>
+                <li class="abt"><strong>Name:</strong> Sheetal Ashok Jadhav </li>
+                <li class="abt"><strong>Degree:</strong> Engineering(ISE)</li>
+                <li class="abt"><strong>AGE:</strong>22</li>
+                <li class="abt"><strong>PLACE:</strong> Vijaynagara</li>
+                <li class="abt"><strong>PHONE:</strong> +91 -7760762156</li>
+            </ul>
+        </section>
+        <!-- this is project section and odered list is used here -->
+        <section id="proj" class="resume">
+            <h3 class="headline">PROJECTS:</h3>
+            <ol>
+                <li class="project">
+                    <h4>WEARABLE SOLUTION FOR PARKINSON'S DISEASE</h4>
+                    <p>
+                        This is the IoT based project for parkinson's deisease patients. It uses Arduino Uno board, Gyroscope sensor, Coin motors, and LCD display. Gyroscope sensor is used to calculate frequency of tremor of hands for those patients and according to the fluctuation of those frequency, coin motors will provide counter frequency to reduce the effect of tremor on patient and so that he can do his work efficiently.  LCD display will be helpfull to see the frequency in three direction. For more details <a href="#contact">contact me</a>
+      
+                    </li>
+                  <li class="project">
+                    <h4>WEDDING PLANNER</h4>
+                    <p>This is the web based project using Html, Css, and JavaScript. Bootstrap was used to enhance the efficiency and Mysql is used used for backend. This website is usefull for bride and groom to plan their wedding according to their choice where they get variety of decoration design, bridal makeup, car decoration, catering services etc. It is the user-friendly website. For more details <a href="#contact">contact me</a>  </p>
+                  </li>
+            </ol>
+        </section>
+         <!-- this is skill section and progress bar is used  -->
+        <section id="skill" class="resume">
+           <h3 class="headline">SKILLS:</h3>
+            <h4 class="sub">Html and Css:70%</h4>
+            <div class="progress-bar"><div class="progress" style="width:70%"></div></div>
+            <h4 class="sub">JavaScript:60%</h4>
+            <div class="progress-bar"><div class="progress" style="width:60%"></div></div>
+            <h4 class="sub">Python:80%</h4>
+            <div class="progress-bar"><div class="progress" style="width:80%"></div></div>
+            <h4 class="sub">Django and Flask:40%</h4>
+            <div class="progress-bar"><div class="progress" style="width:40%"></div></div>
+            <h4 class="sub">Ruby :50%</h4>
+            <div class="progress-bar"><div class="progress" style="width:50%"></div></div>
+        </section>
+
+        
+         <!-- this is contact section -->
+       <section id="contact" class="resume">
+        
+        <h3 class="headline">CONTACT:</h3>
+        <form class="contact_form">
+            <label for="name"><strong>NAME:</strong></label><br>
+            <input type="text", id="name", placeholder="Enter your name", class="feild"><br><br>
+            <label for="email"><strong>EMAIL:</strong></label><br>
+            <input type="email" id="email", placeholder="Enter your Email", class="feild"><br><br>
+            <label for="msg"><strong>NAME:</strong></label><br>
+            <input type="text" id="msg", placeholder="Enter your message", class="feild"><br><br>
+            <input type="submit" value="SUBMIT" class="submit">
+            
+        </form>
+    </section>
+    <!-- back to home -->
+    <a href="#home" class="homeimg" ><img src="images/home.png" alt=""></a>
+</section>
+</section>
+</body>
+</html>
