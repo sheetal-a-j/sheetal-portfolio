@@ -10,12 +10,7 @@ body{
 
 /* mobile view */
 @media screen and (max-width: 768px){
-    .top{
-        width:100%;
-        height: 60%;
-    
-    }
-    
+
     #about{
         display:flex;
         width:100%;
@@ -27,23 +22,27 @@ body{
         color: white;
         font-family: 'Courgette', cursive;
     }
-    #navbar ul li a{
-        padding:0.1rem;
-        margin:0.3rem;
-    }.social a img{
+
+    .social a img{
         border-radius: 50%;
         width:2rem;
         margin:0.5rem;
     }
+    .menu{
+        margin:0.5rem 0.5rem;
+        border:2px solid black;
+        border-radius: 1rem;
+        padding:0.3rem 0.6rem;
+    
+    }
+    .menu a{
+        font-size: 1rem;
+    }
+    
 
 }
 /* deskop view */
 @media screen and (min-width: 768px){
-    .top{
-        width:100%;
-        height: 80%;
-    
-    }
     
     #about{
         display:flex;
@@ -51,8 +50,6 @@ body{
         margin:0 auto;
         flex-direction: column;
         justify-content: space-between;
-        
-    
     }
 
     .hprimary{
@@ -60,28 +57,38 @@ body{
         color: white;
         font-family: 'Courgette', cursive;
     }
-    #navbar ul li a{
-        padding:0.3rem;
-        margin:0.3rem;
-    }
+    
     /* social social links images */
     .social a img{
         border-radius: 50%;
         width:4rem;
         margin:1rem;
     }
+    .menu{
+        margin:1rem 1rem;
+        border:2px solid black;
+        border-radius: 3rem;
+        padding:0.5rem 1rem;
+    
+    }
+    .menu a{
+        font-size: 1.6rem;
+    }
 
 
 }
 
 /* giving margin for logo image */
-#logo{
-    margin:1rem 1rem;
+#logo{ 
+    width:10rem;
+    height:5rem ;
+    margin:1rem  auto;
+    
 }
 /* border-radius 50% will make the logo in round shape */
 #logo img{
    border-radius: 50%;
-   width:6rem;
+   width:100%;
 }
 /* initializing all the fonts and style for p tag */
 p{
@@ -92,37 +99,22 @@ p{
     line-height: 1.8;
 }
 
-/* making navbar flex so that logo and ul can come side by side  and aligning the items in center. */
+/* making navbar flex and aligning the items in center. */
 #navbar{
     display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
     align-items: center;
-    flex-wrap:wrap;
-    position:relative;
-    background-color: gray;
-    
-}
+    justify-content: center;
+    }
 
-/* making navbar ul flex to arrange three list row wise */
-#navbar ul{
-    display:flex;
-    flex-wrap:wrap;
+.menu a{
+    color:black;
+     text-decoration: none;   /* remove underline of anchor tag*/
 }
-
-/* styling the navbar  anchor tags */
-#navbar ul li{
-    list-style: none;  /* remove the dots of list */
-    font-size: 1.6rem;
-}
-
-#navbar ul li a{
-    color:brown;
-    display:block;
-    border-radius: 20px;
-    text-decoration: none;   /* remove underline of anchor tag*/
-}
-#navbar ul li a:hover{  /*change color when hover*/
-    color: black;
-    background-color: white;
+.menu:hover{  /*change color when hover*/
+    color:white;
+    background-color:gray;
 }
 
 /* setting background image for top portion */
@@ -134,10 +126,10 @@ p{
 /* making home section flex box and aligning items in column direction */
 #home{
     display: flex;
-    height:100vh;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-end;
+
 }
 
 /* change font of p in home  */
@@ -156,10 +148,6 @@ p{
 
 }
 
-
-.down{
-    width:100%;
-}
 
 /* .abt and .project all li of ul and ol for personal details and project */
 /* giving them margin  */
