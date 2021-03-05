@@ -10,6 +10,12 @@ body{
 
 /* mobile view */
 @media screen and (max-width: 768px){
+    .top{
+        width:100%;
+        height: 60%;
+    
+    }
+    
     #about{
         display:flex;
         width:100%;
@@ -33,6 +39,12 @@ body{
 }
 /* deskop view */
 @media screen and (min-width: 768px){
+    .top{
+        width:100%;
+        height: 80%;
+    
+    }
+    
     #about{
         display:flex;
         width:60%;
@@ -42,6 +54,7 @@ body{
         
     
     }
+
     .hprimary{
         font-size: 5rem;
         color: white;
@@ -115,8 +128,6 @@ p{
 /* setting background image for top portion */
 .top{
     background:url("images/bg2.jpg") no-repeat center center/cover;
-    width:100%;
-    height: 80%;
 
 }
 
