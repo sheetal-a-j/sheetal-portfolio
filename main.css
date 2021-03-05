@@ -20,7 +20,17 @@ body{
         font-size: 2rem;
         color: white;
         font-family: 'Courgette', cursive;
-}}
+    }
+    #navbar ul li a{
+        padding:0.1rem;
+        margin:0.3rem;
+    }.social a img{
+        border-radius: 50%;
+        width:2rem;
+        margin:0.5rem;
+    }
+
+}
 /* deskop view */
 @media screen and (min-width: 768px){
     #about{
@@ -36,7 +46,20 @@ body{
         font-size: 5rem;
         color: white;
         font-family: 'Courgette', cursive;
-}}
+    }
+    #navbar ul li a{
+        padding:0.3rem;
+        margin:0.3rem;
+    }
+    /* social social links images */
+    .social a img{
+        border-radius: 50%;
+        width:4rem;
+        margin:1rem;
+    }
+
+
+}
 
 /* giving margin for logo image */
 #logo{
@@ -81,8 +104,6 @@ p{
 #navbar ul li a{
     color:brown;
     display:block;
-    padding:0.3rem;
-    margin:1rem 1rem;
     border-radius: 20px;
     text-decoration: none;   /* remove underline of anchor tag*/
 }
@@ -118,19 +139,12 @@ p{
 
 /* within home flex making social links box flex and giving them row direction */
 .social{
-    width:20rem;
     align-self:center;
     display: flex;
     flex-wrap: wrap;
 
 }
 
-/* social social links images */
-.social a img{
-    border-radius: 50%;
-    width:4rem;
-    margin:1rem;
-}
 
 .down{
     width:100%;
