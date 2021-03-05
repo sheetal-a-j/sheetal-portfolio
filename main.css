@@ -177,8 +177,9 @@ ul{
 .progress-bar{
     background-color:rgba(128, 128, 128, 0.541); 
     height:1.5rem;
-    width:100%;
+    width:90%;
     border-radius: 1rem;
+    margin: 0 0.5rem;
 
 }
 
