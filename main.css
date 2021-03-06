@@ -9,7 +9,8 @@ body{
 }
 
 /* mobile view */
-@media screen and (max-width: 776px){
+
+@media screen and (max-width: 790px){
 
     #about{
         display:flex;
@@ -49,7 +50,7 @@ body{
 
 }
 /* deskop view */
-@media screen and (min-width: 776px){
+@media screen and (min-width: 790px){
     
     #about{
         display:flex;
@@ -88,6 +89,11 @@ body{
 
 
 }
+/* @media screen and (max-width: 314px){
+    .hprimary{
+        margin-top: 2rem;
+        font-size: 1rem;
+    } */
 
 /* giving margin for logo image */
 #logo{ 
@@ -163,9 +169,9 @@ p{
 
 /* .abt and .project all li of ul and ol for personal details and project */
 /* giving them margin  */
-/* .abt, .project{
+.abt, .project{
     margin: 0.8rem
-} */
+}
 
 
 /* styling headline of all section in  about id */
