@@ -9,7 +9,7 @@ body{
 }
 
 /* mobile view */
-@media screen and (max-width: 790px){
+@media screen and (max-width: 776px){
 
     #about{
         display:flex;
@@ -43,13 +43,13 @@ body{
         font-size: 1rem;
     }
     ol{
-        margin-left :0.3rem;
+        margin-left :0.6rem;
     }
     
 
 }
 /* deskop view */
-@media screen and (min-width: 790px){
+@media screen and (min-width: 776px){
     
     #about{
         display:flex;
